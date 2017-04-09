@@ -259,7 +259,7 @@ int atag_arm_load(struct kexec_info *info, unsigned long base,
 
 #define DTB_MAGIC               0xedfe0dd0
 #define DTB_OFFSET              0x2C
-#define DTB_PAD_SIZE            65536
+#define DTB_PAD_SIZE            4096
 
 static int get_appended_dtb(const char *kernel, off_t kernel_len, char **dtb_img, off_t *dtb_img_len)
 {
