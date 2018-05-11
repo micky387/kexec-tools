@@ -210,7 +210,7 @@ exit:
 }
 
 const struct arm_mach arm_mach_apq8084 = {
-    .boardnames = { "tblte", "tbltexx", "tbltedt", NULL },
+    .boardnames = { "tblteatt", "tblte", "tbltecan", "tbltedt", "tbltespr", "tbltetmo", "tblteusc", "tbltevzw", "tbltexx", NULL },
     .choose_dtb = apq8084_choose_dtb,
     .add_extra_regs = apq8084_add_extra_regs,
 };
